@@ -1,0 +1,11 @@
+//Question 3
+import java.util.*;
+public class DAY2_PQ3 {
+//use comparsion operaters to find out whether a given number is greater than the user entered number or not
+	public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int a=sc.nextInt();
+        System.out.println(a > 8);
+    }
+}

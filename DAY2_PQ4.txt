@@ -1,0 +1,16 @@
+//Question 4
+import java.util.*;
+
+public class DAY2_PQ4 {
+    // Write the following expression in a Java program: v*v - u*u / (2*a*s)
+    public static void main(String[] args) {
+        double v = 10.0;
+        double u = 20.0;
+        double a = 30.0;
+        double s = 50.0;
+
+        double k = (v * v - u * u) / (2 * a * s);
+        System.out.println(k);
+
+    }
+}
